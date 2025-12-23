@@ -1,0 +1,21 @@
+# Enable rewriting
+RewriteEngine On
+
+# Set the base URL to root
+RewriteBase /
+
+# Map /roles → /admin-panel/pages/role_management.php
+RewriteRule ^roles$ admin-panel/pages/role_management.php [L]
+
+# (Optional) Add more custom routes below
+# RewriteRule ^dashboard$ admin-panel/pages/dashboard.php [L]
+# RewriteRule ^users$ admin-panel/pages/users.php [L]
+
+# Disable directory listing
+Options -Indexes
+
+# Hide .htaccess itself
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>

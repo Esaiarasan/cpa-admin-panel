@@ -1,0 +1,166 @@
+/* ====== Global Reset ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: "Poppins", Arial, sans-serif;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  /* ====== Left Section ====== */
+  .left-panel {
+    flex: 1;
+    background: linear-gradient(135deg, #2e7d32, #388e3c);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    text-align: center;
+    width: 100rem;
+  }
+  
+  .left-panel img {
+    width: 20rem;
+    margin-bottom: 20px;
+  }
+  
+  /* ====== Right Section ====== */
+  .right-panel {
+    flex: 1;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 380px;
+    padding: 40px 30px;
+    border-radius: 12px;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .login-box label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 18px;
+    transition: 0.3s;
+  }
+  
+  .login-box input:focus {
+    border-color: #2e7d32;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(46,125,50,0.1);
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 43%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #777;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-box button:hover {
+    background: #256628;
+  }
+  
+  /* ====== Error Popup ====== */
+  .popup {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f44336;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    animation: fadeIn 0.3s ease;
+    z-index: 10;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, -10px); }
+    to { opacity: 1; transform: translate(-50%, 0); }
+  }
+  
+  /* ====== Responsive Design ====== */
+  @media(max-width: 900px) {
+    body {
+      flex-direction: column;
+    }
+    .left-panel, .right-panel {
+      flex: none;
+      width: 100%;
+      height: auto;
+    }
+    .left-panel {
+      padding: 40px 20px;
+    }
+  }
+  
+  
+  .popup {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 15px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #fff;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.popup.success { background-color: #28a745; }
+.popup.error { background-color: #dc3545; }
+
+  

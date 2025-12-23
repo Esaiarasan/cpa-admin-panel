@@ -1,0 +1,482 @@
+2025-10-18 11:48:07 Incoming raw JSON: 
+2025-10-18 11:48:07 Merged data: Array
+(
+    [role_id] => 15
+    [txt_role] => Business Manager2
+    [txt_department] => Admin
+    [sel_access] => Array
+        (
+            [0] => 2
+            [1] => 5
+        )
+
+    [permissions] => Array
+        (
+            [2] => view,edit
+            [5] => view,delete
+        )
+
+)
+
+2025-10-18 11:48:07 Prepared access_csv: 2,5
+2025-10-18 11:48:07 Prepared controls_json: {"2":["view","edit"],"5":["view","delete"]}
+2025-10-18 11:48:07 Execute OK. rowCount = 1
+2025-10-18 12:25:59 Incoming raw JSON: 
+2025-10-18 12:25:59 Merged data: Array
+(
+    [role_id] => 15
+    [txt_role] => Business Manager2
+    [txt_department] => Admin
+    [sel_access] => Array
+        (
+            [0] => 2
+            [1] => 5
+        )
+
+    [permissions] => Array
+        (
+            [2] => view,edit
+            [5] => view,delete
+        )
+
+)
+
+2025-10-18 12:25:59 Prepared access_csv: 2,5
+2025-10-18 12:25:59 Prepared controls_json: {"2":["view","edit"],"5":["view","delete"]}
+2025-10-18 12:25:59 Execute OK. rowCount = 0
+2025-10-18 12:25:59 Post-update check: Array
+(
+    [r_id] => 15
+    [role] => Business Manager2
+    [department] => Admin
+    [access_navigations] => 2,5
+    [controls] => {"2":["view","edit"],"5":["view","delete"]}
+)
+
+2025-10-24 13:37:23 Incoming raw JSON: 
+2025-10-24 13:37:23 Merged data: Array
+(
+    [role_id] => 5
+    [txt_role] => IT Managers
+    [txt_department] => IT Department
+    [sel_access] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [permissions] => Array
+        (
+            [1] => view,edit
+            [2] => view,edit,delete
+        )
+
+)
+
+2025-10-24 13:37:23 Prepared access_csv: 1,2
+2025-10-24 13:37:23 Prepared controls_json: {"1":["view","edit"],"2":["view","edit","delete"]}
+2025-10-24 13:37:23 Execute OK. rowCount = 1
+2025-10-25 04:41:08 Incoming raw JSON: 
+2025-10-25 04:41:08 Merged data: Array
+(
+    [role_id] => 5
+    [txt_role] => IT Managers
+    [txt_department] => IT Department
+    [sel_access] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 5
+            [3] => 6
+        )
+
+    [permissions] => Array
+        (
+            [1] => view
+            [2] => view,edit
+            [5] => view,edit,delete
+            [6] => view,edit,delete
+        )
+
+)
+
+2025-10-25 04:41:08 Prepared access_csv: 1,2,5,6
+2025-10-25 04:41:08 Prepared controls_json: {"1":["view"],"2":["view","edit"],"5":["view","edit","delete"],"6":["view","edit","delete"]}
+2025-10-25 04:41:08 Execute OK. rowCount = 1
+2025-10-27 08:28:16 Incoming raw JSON: 
+2025-10-27 08:28:17 Merged data: Array
+(
+    [role_id] => 19
+    [txt_role] => Therapist test
+    [txt_department] => IT Department
+    [sel_access] => Array
+        (
+            [0] => 3
+            [1] => 5
+            [2] => 6
+        )
+
+    [permissions] => Array
+        (
+            [3] => view,edit
+            [5] => view,edit,delete
+            [6] => edit,delete
+        )
+
+)
+
+2025-10-27 08:28:17 Prepared access_csv: 3,5,6
+2025-10-27 08:28:17 Prepared controls_json: {"3":["view","edit"],"5":["view","edit","delete"],"6":["edit","delete"]}
+2025-10-27 08:28:17 Execute OK. rowCount = 1
+2025-10-27 08:28:36 Incoming raw JSON: 
+2025-10-27 08:28:36 Merged data: Array
+(
+    [role_id] => 19
+    [txt_role] => Therapist test
+    [txt_department] => IT Department
+    [sel_access] => Array
+        (
+            [0] => 3
+            [1] => 5
+            [2] => 6
+        )
+
+    [permissions] => Array
+        (
+            [3] => view,edit
+            [5] => view,edit,delete
+            [6] => edit,delete
+        )
+
+)
+
+2025-10-27 08:28:36 Prepared access_csv: 3,5,6
+2025-10-27 08:28:36 Prepared controls_json: {"3":["view","edit"],"5":["view","edit","delete"],"6":["edit","delete"]}
+2025-10-27 08:28:36 Execute OK. rowCount = 0
+2025-10-27 08:28:36 Post-update check: Array
+(
+    [r_id] => 19
+    [role] => Therapist test
+    [department] => IT Department
+    [access_navigations] => 3,5,6
+    [controls] => {"3":["view","edit"],"5":["view","edit","delete"],"6":["edit","delete"]}
+)
+
+2025-10-27 08:38:58 Incoming raw JSON: 
+2025-10-27 08:38:58 Merged data: Array
+(
+    [role_id] => 19
+    [txt_role] => Therapist test
+    [txt_department] => IT Department
+    [sel_access] => Array
+        (
+            [0] => 3
+            [1] => 5
+            [2] => 6
+            [3] => 7
+        )
+
+    [permissions] => Array
+        (
+            [3] => view,delete
+            [5] => view,edit,delete
+            [6] => 
+            [7] => view,edit
+        )
+
+)
+
+2025-10-27 08:38:58 Prepared access_csv: 3,5,6,7
+2025-10-27 08:38:58 Prepared controls_json: {"3":["view","delete"],"5":["view","edit","delete"],"6":[],"7":["view","edit"]}
+2025-10-27 08:38:58 Execute OK. rowCount = 1
+2025-11-06 02:49:54 Incoming raw JSON: 
+2025-11-06 02:49:54 Merged data: Array
+(
+    [role_id] => 9
+    [txt_role] => Super Admin
+    [txt_department] => Admin
+    [sel_access] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+            [3] => 5
+            [4] => 6
+            [5] => 7
+            [6] => 8
+            [7] => 9
+            [8] => 10
+            [9] => 11
+            [10] => 12
+            [11] => 13
+            [12] => 14
+            [13] => 4
+        )
+
+    [permissions] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [4] => 
+        )
+
+)
+
+2025-11-06 02:49:54 Prepared access_csv: 1,2,3,5,6,7,8,9,10,11,12,13,14,4
+2025-11-06 02:49:54 Prepared controls_json: {"1":[],"2":[],"3":[],"5":[],"6":[],"7":[],"8":[],"9":[],"10":[],"11":[],"12":[],"13":[],"14":[],"4":[]}
+2025-11-06 02:49:54 Execute OK. rowCount = 1
+2025-11-06 02:51:42 Incoming raw JSON: 
+2025-11-06 02:51:42 Merged data: Array
+(
+    [role_id] => 10
+    [txt_role] => Test IT Manager 
+    [txt_department] => IT Department
+    [sel_access] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+            [3] => 5
+        )
+
+    [permissions] => Array
+        (
+            [1] => 
+            [2] => view,edit
+            [3] => view,edit,delete
+            [5] => view,edit,delete
+        )
+
+)
+
+2025-11-06 02:51:42 Prepared access_csv: 1,2,3,5
+2025-11-06 02:51:42 Prepared controls_json: {"1":[],"2":["view","edit"],"3":["view","edit","delete"],"5":["view","edit","delete"]}
+2025-11-06 02:51:42 Execute OK. rowCount = 1
+2025-11-06 02:52:21 Incoming raw JSON: 
+2025-11-06 02:52:21 Merged data: Array
+(
+    [role_id] => 10
+    [txt_role] => Test IT Manager 
+    [txt_department] => IT Department
+    [sel_access] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+            [3] => 5
+        )
+
+    [permissions] => Array
+        (
+            [1] => 
+            [2] => view,edit
+            [3] => view,edit,delete
+            [5] => view,edit,delete
+        )
+
+)
+
+2025-11-06 02:52:21 Prepared access_csv: 1,2,3,5
+2025-11-06 02:52:21 Prepared controls_json: {"1":[],"2":["view","edit"],"3":["view","edit","delete"],"5":["view","edit","delete"]}
+2025-11-06 02:52:21 Execute OK. rowCount = 0
+2025-11-06 02:52:21 Post-update check: Array
+(
+    [r_id] => 10
+    [role] => Test IT Manager
+    [department] => IT Department
+    [access_navigations] => 1,2,3,5
+    [controls] => {"1":[],"2":["view","edit"],"3":["view","edit","de
+)
+
+2025-11-06 02:54:01 Incoming raw JSON: 
+2025-11-06 02:54:01 Merged data: Array
+(
+    [role_id] => 16
+    [txt_role] => Admin
+    [txt_department] => IT Department
+    [sel_access] => Array
+        (
+            [0] => 2
+            [1] => 3
+        )
+
+    [permissions] => Array
+        (
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2025-11-06 02:54:01 Prepared access_csv: 2,3
+2025-11-06 02:54:01 Prepared controls_json: {"2":[],"3":[]}
+2025-11-06 02:54:01 Execute OK. rowCount = 1
+2025-11-06 02:54:28 Incoming raw JSON: 
+2025-11-06 02:54:28 Merged data: Array
+(
+    [role_id] => 15
+    [txt_role] => Business Manager
+    [txt_department] => Admin
+    [sel_access] => Array
+        (
+            [0] => 2
+            [1] => 5
+        )
+
+    [permissions] => Array
+        (
+            [2] => view,edit
+            [5] => view,delete
+        )
+
+)
+
+2025-11-06 02:54:28 Prepared access_csv: 2,5
+2025-11-06 02:54:28 Prepared controls_json: {"2":["view","edit"],"5":["view","delete"]}
+2025-11-06 02:54:28 Execute OK. rowCount = 1
+2025-11-10 07:09:33 Incoming raw JSON: 
+2025-11-10 07:09:33 Merged data: Array
+(
+    [role_id] => 23
+    [txt_role] => Test Role7thNov
+    [txt_department] => Test7 
+    [sel_access] => Array
+        (
+            [0] => 5
+            [1] => 10
+            [2] => 11
+            [3] => 12
+            [4] => 13
+            [5] => 14
+            [6] => 1
+        )
+
+    [permissions] => Array
+        (
+            [1] => view,edit,delete
+            [5] => view,edit
+            [10] => view,edit
+            [11] => view,edit,delete
+            [12] => view,edit
+            [13] => view,edit
+            [14] => view,edit
+        )
+
+)
+
+2025-11-10 07:09:33 Prepared access_csv: 5,10,11,12,13,14,1
+2025-11-10 07:09:33 Prepared controls_json: {"1":["view","edit","delete"],"5":["view","edit"],"10":["view","edit"],"11":["view","edit","delete"],"12":["view","edit"],"13":["view","edit"],"14":["view","edit"]}
+2025-11-10 07:09:33 Execute OK. rowCount = 1
+2025-11-10 07:10:07 Incoming raw JSON: 
+2025-11-10 07:10:07 Merged data: Array
+(
+    [role_id] => 23
+    [txt_role] => Test Role7thNov
+    [txt_department] => Test7 
+    [sel_access] => Array
+        (
+            [0] => 5
+            [1] => 10
+            [2] => 11
+            [3] => 12
+            [4] => 13
+            [5] => 14
+            [6] => 1
+        )
+
+    [permissions] => Array
+        (
+            [1] => view,edit,delete
+            [5] => view,edit
+            [10] => view,edit
+            [11] => view,edit,delete
+            [12] => view,edit
+            [13] => view,edit
+            [14] => view,edit
+        )
+
+)
+
+2025-11-10 07:10:07 Prepared access_csv: 5,10,11,12,13,14,1
+2025-11-10 07:10:07 Prepared controls_json: {"1":["view","edit","delete"],"5":["view","edit"],"10":["view","edit"],"11":["view","edit","delete"],"12":["view","edit"],"13":["view","edit"],"14":["view","edit"]}
+2025-11-10 07:10:07 Execute OK. rowCount = 0
+2025-11-10 07:10:07 Post-update check: Array
+(
+    [r_id] => 23
+    [role] => Test Role7thNov
+    [department] => Test7
+    [access_navigations] => 5,10,11,12,13,14,1
+    [controls] => {"1":["view","edit","delete"],"5":["view","edit"],
+)
+
+2025-11-10 07:24:13 Incoming raw JSON: 
+2025-11-10 07:24:13 Merged data: Array
+(
+    [role_id] => 25
+    [txt_role] => Test Therapist Role
+    [txt_department] => Therapist Practitioner
+    [sel_access] => Array
+        (
+            [0] => 2
+            [1] => 3
+            [2] => 5
+            [3] => 6
+            [4] => 7
+            [5] => 11
+            [6] => 12
+            [7] => 13
+        )
+
+    [permissions] => Array
+        (
+            [2] => view,edit
+            [3] => view,edit,delete
+            [5] => view,edit,delete
+            [6] => view,edit,delete
+            [7] => view,delete
+            [11] => view,edit
+            [12] => view
+            [13] => view
+        )
+
+)
+
+2025-11-10 07:24:13 Prepared access_csv: 2,3,5,6,7,11,12,13
+2025-11-10 07:24:13 Prepared controls_json: {"2":["view","edit"],"3":["view","edit","delete"],"5":["view","edit","delete"],"6":["view","edit","delete"],"7":["view","delete"],"11":["view","edit"],"12":["view"],"13":["view"]}
+2025-11-10 07:24:13 Execute OK. rowCount = 1
+2025-11-17 06:17:08 Incoming raw JSON: 
+2025-11-17 06:17:08 Merged data: Array
+(
+    [role_id] => 3
+    [txt_role] => Therapist PracticnorTest
+    [txt_department] => Therapist 
+    [sel_access] => Array
+        (
+            [0] => 10
+            [1] => 13
+            [2] => 1
+        )
+
+    [permissions] => Array
+        (
+            [10] => delete
+            [13] => view
+            [1] => view
+        )
+
+)
+
+2025-11-17 06:17:08 Prepared access_csv: 10,13,1
+2025-11-17 06:17:08 Prepared controls_json: {"10":["delete"],"13":["view"],"1":["view"]}
+2025-11-17 06:17:08 Execute OK. rowCount = 1

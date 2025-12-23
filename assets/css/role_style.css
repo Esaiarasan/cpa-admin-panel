@@ -1,0 +1,48 @@
+  /* Toolbar: search input + buttons inline */
+  .dt-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dt-toolbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search_role1 {
+    width: 200px; /* adjust as needed */
+}
+
+/* Action buttons inside table */
+#rolesTable .btn-action {
+    background: transparent !important;
+    padding: 4px 8px;
+    margin-right: 2px;
+    cursor: pointer;
+    border: none;
+}
+
+#rolesTable .btn-view {
+    color: black !important;
+}
+
+#rolesTable .btn-edit {
+    color: #0063a5 !important;
+}
+
+#rolesTable .btn-delete {
+    color: red !important;
+}
+
+/* Button icons */
+#rolesTable .btn-icon {
+    background: transparent;
+    border: none;
+    padding: 4px 6px;
+    margin-right: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}

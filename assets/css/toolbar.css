@@ -1,0 +1,142 @@
+.toolbar-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .toolbar-box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: fit-content;
+    max-width: 90%;
+  }
+  
+  .toolbar-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .toolbar-icon {
+    background: #fff;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .toolbar-icon:hover {
+    background: #f0f0f0;
+    transform: scale(1.05);
+    border-color: #007bff;
+  }
+  
+  .toolbar-icon .iconify {
+    font-size: 22px;
+  }
+  
+  .toolbar-label {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+  }
+  
+  /* 📱 Responsive */
+  @media (max-width: 600px) {
+    .toolbar-row {
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+  
+    .toolbar-icon {
+      padding: 5px;
+    }
+  
+    .toolbar-box {
+      padding: 8px;
+    }
+  }
+  
+
+  .toolbar-container {
+    opacity: 0;
+    animation: fadeIn 0.6s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+
+  #toolbar-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.toolbar-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.toolbar-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+.toolbar-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Dropdown styles */
+.toolbar-dropdown-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.toolbar-dropdown {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 220px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    z-index: 999;
+}
+
+.toolbar-dropdown .dropdown-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.toolbar-dropdown .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.toolbar-dropdown hr {
+    margin: 5px 0;
+    border: 0.5px solid #eee;
+}
+
+  
